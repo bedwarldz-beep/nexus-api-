@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: nexus-api
+    env: node
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - key: BOT_TOKEN
+        value: MTQ3MzM0MDI2MDIzMzY0NjE4Mw.G4qb4O.gnxRCeaq_Q_3CEf8by_dEl7uXoKka6cNeBuUVM
+      - key: CLIENT_ID
+        value: 1473340260233646183
+      - key: CLIENT_SECRET
+        value: Nq90pt1JT2OTWwjzd_-pskYtGtErhfc7
+      - key: GUILD_ID
+        value: 1506435522153939135
+      - key: PASS_ROLE_ID
+        value: 1507000581670043689
+      - key: FAIL_ROLE_ID
+        value: "1506441333106020466"
